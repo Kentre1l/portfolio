@@ -1,0 +1,145 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f0f7f4;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background: linear-gradient(to right, #705d56, #32292f);
+  color: #fff;
+  padding: 0.5rem 0; /* Reduced padding to half */
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 1.5rem; /* Adjusted font size for a smaller header */
+  margin: 0; /* Remove default margin */
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px; /* Slightly reduced spacing */
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #99e1d9;
+}
+
+/* Section styles */
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #70abaf;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skill {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-carousel {
+  display: flex;
+  overflow-x: auto;
+}
+
+.project {
+  min-width: 300px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  background: #f9f9f9;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact form styles */
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px; /* Smaller width */
+  margin: 0 auto; /* Center the form */
+}
+
+#contact-form label {
+  margin-top: 10px;
+  font-size: 14px; /* Smaller label text */
+}
+
+#contact-form input,
+#contact-form button {
+  padding: 8px; /* Smaller padding */
+  margin-top: 5px;
+  font-size: 14px; /* Smaller input text */
+}
+
+#contact-form button {
+  background: #705d56;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+#contact-form button:hover {
+  background: #32292f;
+}
+
+#contact p {
+  text-align: center;
+  font-size: 16px; /* Informational text size */
+  margin-bottom: 15px; /* Spacing before the form */
+  color: #555; /* Subtle text color */
+}

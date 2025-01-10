@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tyrone's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <h1>Welcome to My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about-me">
+      <h2>About Me</h2>
+      <p>
+        Hello! My name is Tyrone Higgs, and I’m a passionate web developer
+        specializing in creating responsive and modern websites.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill">
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>PHP, MySQL</li>
+            <li>React, Node.js</li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Problem-solving</li>
+            <li>Communication</li>
+            <li>Teamwork</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-carousel">
+        <div class="project">
+          <h3>Project One</h3>
+          <p>A modern e-commerce website with a user-friendly interface.</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+          <h3>Project Two</h3>
+          <p>An interactive to-do app with real-time data synchronization.</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+          <h3>Project Three</h3>
+          <p>A portfolio website showcasing beautiful design.</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        If you'd like to get in touch, leave your details below, and I'll get
+        back to you as soon as possible!
+      </p>
+      <form id="contact-form" action="contact.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone">Phone:</label>
+        <input
+          type="text"
+          id="phone"
+          name="phone"
+          pattern="\d+"
+          title="Only numeric values allowed"
+          required
+        />
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2025 Tyrone Higgs. Connect with me on: <a href="#">LinkedIn</a> |
+        <a href="#">GitHub</a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
