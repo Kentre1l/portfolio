@@ -1,3 +1,6 @@
+The project is a **Personal Portfolio Website** designed to showcase the professional profile of Tyrone, including their skills, completed projects, and a way to connect via a contact form. The website will feature a modern, responsive design tailored for desktop users, with interactive elements such as a project carousel and smooth navigation. The backend, built using PHP and MySQL, will handle contact form submissions, validate user inputs, and securely store visitor details in a database for future use. This portfolio serves as a digital resume to highlight Tyrone's expertise and achievements while offering potential collaborators or employers an easy way to get in touch.
+
+
 HOW TO RUN;
 
 ---
